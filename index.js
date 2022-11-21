@@ -1,4 +1,7 @@
+let sum = 0;
 for(i = 1; i < 11; i++) {
-    if(i %2 === 0) console.log(i);
+    console.log(i);
+    sum += i;
 }
 console.log("끝났다");
+console.log(`총 합: ${sum}`);
